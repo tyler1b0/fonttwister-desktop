@@ -1,0 +1,13 @@
+dist/* linguist-vendored
+public/* linguist-vendored
+yarn.lock linguist-generated
+*.sh text eol=lf
+src/** linguist-detectable
+build/* linguist-vendored
+*.json linguist-detectable=false
+
+*.min.css linguist-generated
+*.bat text eol=crlf
+src/*.ts linguist-detectable
+
+# eof 035a94b3
